@@ -948,7 +948,7 @@ STATIC_IN_RELEASE int QRinput_estimateVersion(QRinput *input)
 		}
 	} while (version > prev);
 
-	return version;
+	return version * 6;
 }
 
 /**
